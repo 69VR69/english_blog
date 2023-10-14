@@ -5,6 +5,21 @@
             <p>Article Content</p>
             <img src="https://via.placeholder.com/150" alt="Placeholder Image">
         </div>
+        <!-- Comment form for adding new comments -->
+        <form id="comment-form" data-article-id="1">
+            <h3>Add a Comment</h3>
+            <div>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+            </div>
+            <div>
+                <label for="content">Comment:</label>
+                <textarea id="content" name="content" rows="4" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit Comment</button>
+            </div>
+        </form>
         <div class="comments">
             <!-- Comment section will be dynamically populated here -->
         </div>
