@@ -1,0 +1,35 @@
+{
+    "articles": [
+        {
+            "id": "1",
+            "title": "Article 1",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisl euismod, aliq",
+            "images": [
+                {
+                    "url": "http://lorempixel.com/400/200/",
+                    "caption": "Image 1"
+                },
+                {
+                    "url": "http://lorempixel.com/400/200/",
+                    "caption": "Image 2"
+                }
+            ],
+            "comments": [
+                {
+                    "id": "1.1 ",
+                    "refId": "1",
+                    "author": "John Doe",
+                    "content": "Lorem ipsum dolor sit amet",
+                    "date": "01/01/2015"
+                },
+                {
+                    "id": "1.2 ",
+                    "refId": "1.1",
+                    "author": "John Doe",
+                    "content": "Lorem ipsum dolor sit amet",
+                    "date": "01/01/2015"
+                }
+            ]
+        }
+    ]
+}
